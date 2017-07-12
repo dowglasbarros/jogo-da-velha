@@ -5,81 +5,83 @@
 	<meta charset="UTF-8">
 
 	<title>Jogo da velha</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="jquery-3.2.1.js"></script>
 </head>
 
 <body>
-	<div id="inicial" align="center">
-		<table border="0" width="600px">
+	<div id="initial" align="center">
+		<table class="table-width">
+			<thead>
+				<tr>
+					Jogo da velha
+				</tr>
+			</thead>
 			<tbody>
 				<tr>
-					<td colspan="3" align="center">Jogo da Velha</td>
-				</tr>
-
-				<tr>
-					<td align="center">
-						<img src="imagens/jogador_1.png">
+					<td class="td-align">
+						<img src="images/player-one.png">
 						<br>
-						<input type="text" maxlength="10" placeholder="Digite o apelido">
+						<input type="text" maxlength="10" placeholder="Digite o apelido do jogador 1">
 					</td>
-					<td align="center">
-						<img src="imagens/iniciar.png">
+					<td class="td-align">
+						<img src="images/start.png">
 					</td>
-					<td align="center">
-						<img src="imagens/jogador_2.png">
+					<td class="td-align">
+						<img src="images/player-two.png">
 						<br>
-						<input type="text" maxlength="10" placeholder="Digite o apelido">
+						<input type="text" maxlength="10" placeholder="Digite o apelido do jogador 2">
 					</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 
-	<div id="jogo" style="margin-top:50px; text-align:center">
-		<div style="display: inline-block">
-			<img src="imagens/jogador_1.png">
+	<div id="game" class="div-game">
+		<div class="display">
+			<img src="images/player-one.png">
 		</div>
 
-		<div style="display: inline-block">
-			<table border="0">
+		<div class="display">
+			<table>
 				<tr>
-					<td style="border-bottom: solid 1px red; border-right: solid 1px red;">
-						<div style="width:100px; height:100px;"></div>
+					<td class="td-table-one">
+						<div class="div-size"></div>
 					</td>
-					<td style="border-bottom: solid 1px red; border-right: solid 1px red;">
-						<div style="width:100px; height:100px;"></div>
+					<td class="td-table-one">
+						<div class="div-size"></div>
 					</td>
-					<td style="border-bottom: solid 1px red;">
-						<div style="width:100px; height:100px;"></div>
+					<td class="td-table-two">
+						<div class="div-size"></div>
 					</td>
 				</tr>
 				<tr>
-					<td style="border-bottom: solid 1px red; border-right: solid 1px red;">
-						<div style="width:100px; height:100px;"></div>
+					<td class="td-table-one">
+						<div class="div-size"></div>
 					</td>
-					<td style="border-bottom: solid 1px red; border-right: solid 1px red;">
-						<div style="width:100px; height:100px;"></div>
+					<td class="td-table-one">
+						<div class="div-size"></div>
 					</td>
-					<td style="border-bottom: solid 1px red;">
-						<div style="width:100px; height:100px;"></div>
+					<td class="td-table-two">
+						<div class="div-size"></div>
 					</td>
 				</tr>
 				<tr>
-					<td style="border-right: solid 1px red;">
-						<div style="width:100px; height:100px;"></div>
+					<td class="td-table-three">
+						<div class="div-size"></div>
 					</td>
-					<td style="border-right: solid 1px red;">
-						<div style="width:100px; height:100px;"></div>
+					<td class="td-table-three">
+						<div class="div-size"></div>
 					</td>
 					<td>
-						<div style="width:100px; height:100px;"></div>
+						<div class="div-size"></div>
 					</td>
 				</tr>
 			</table>
 		</div>
 
-		<div style="display: inline-block">
-			<img src="imagens/jogador_2.png">
+		<div class="display">
+			<img src="images/player-two.png">
 		</div>
 	</div>
 

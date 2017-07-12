@@ -1,0 +1,38 @@
+.table.width {
+    width: 600px;
+}
+
+.td-header {
+    text-align: center;
+}
+
+.td-align {
+    text-align: center;
+}
+
+.div-game {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.display {
+    display: inline-block;
+}
+
+.td-table-one {
+    border-bottom: solid 1px red;
+    border-right: solid 1px red;
+}
+
+.td-table-two {
+    border-bottom: solid 1px red;
+}
+
+.td-table-three {
+    border-right: solid 1px red;
+}
+
+.div-size {
+    width:100px;
+    height:100px;
+}

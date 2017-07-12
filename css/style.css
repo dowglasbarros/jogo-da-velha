@@ -13,6 +13,7 @@
 .div-game {
     margin-top: 50px;
     text-align: center;
+    display: none;
 }
 
 .display {

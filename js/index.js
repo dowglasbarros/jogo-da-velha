@@ -42,6 +42,7 @@ $(document).ready(function(){
 
     $('.move').click(function(){
         var idFieldClicked = this.id;
+        $('#'+idFieldClicked).off();
         move(idFieldClicked);
     });
 

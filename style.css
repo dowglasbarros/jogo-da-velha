@@ -1,5 +1,63 @@
-.table.width {
+/*
+*
+* @author Dowglas Barros
+* @version 0.1
+*/
+
+/* ===================== Layout ===================== */
+
+body {
+    background: url('images/ruido.png'),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+}
+
+/* -- Barra de navegação -- */
+.img-logo {
+    height: 51px;
+    width: 166px;
+    display: block;
+    background: url('images/logo.png') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+nav.navbar-transparent {
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+.navbar-brand {
+    padding: 0px 0px;
+}
+
+.divisor {
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #9bf0e1;
+}
+
+/* -- Imagem de capa -- */
+
+/* ===================== Tipografia ===================== */
+
+.table-down {
+    margin-top: 250px;
+}
+
+.table-width {
     width: 600px;
+    /* margin-top: 200px; */
+    margin-bottom: 215px;
 }
 
 .td-header {
@@ -11,7 +69,8 @@
 }
 
 .div-game {
-    margin-top: 50px;
+    margin-top: 150px;
+    margin-bottom: 195px;
     text-align: center;
     display: none;
 }

@@ -32,7 +32,7 @@
 			<div class="navbar-header">
 
 				<!-- botao toggle -->
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation-bar">
 					  <span class="sr-only">Alternar navegação</span>
 					  <span class="icon-bar"></span>
 					  <span class="icon-bar"></span>
@@ -46,7 +46,7 @@
 			</div>
 
 			<!-- navbar -->
-			<div class="collapse navbar-collapse" id="barra-navegacao">
+			<div class="collapse navbar-collapse" id="navigation-bar">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="index.html">Reiniciar</a></li>
 					<li><a href="">Instruções</a></li>
@@ -61,82 +61,86 @@
 	</nav>
 	<!-- /nav -->
 
-	<div id="initial" align="center" class="table-down">
-		<table class="table-width">
-			<thead>
-				<tr>
-					JOGO DA VELHA
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td class="td-align">
-						<img src="images/player-one.png">
-						<br>
-						<input id="player-one" type="text" maxlength="10" placeholder="Digite o apelido do jogador 1">
-					</td>
-					<td class="td-align">
-						<img id="btn-start" src="images/start.png">
-					</td>
-					<td class="td-align">
-						<img src="images/player-two.png">
-						<br>
-						<input id="player-two" type="text" maxlength="10" placeholder="Digite o apelido do jogador 2">
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-
-	<div id="game" class="div-game">
-		<div class="display">
-			<img src="images/player-one.png">
-			<br>
-			<span id="player-one-name"></span>
-		</div>
-
-		<div class="display">
-			<table>
-				<tr>
-					<td class="td-table-one">
-						<div id="a-1" class="move div-size"></div>
-					</td>
-					<td class="td-table-one">
-						<div id="a-2" class="move div-size"></div>
-					</td>
-					<td class="td-table-two">
-						<div id="a-3" class="move div-size"></div>
-					</td>
-				</tr>
-				<tr>
-					<td class="td-table-one">
-						<div id="b-1" class="move div-size"></div>
-					</td>
-					<td class="td-table-one">
-						<div id="b-2" class="move div-size"></div>
-					</td>
-					<td class="td-table-two">
-						<div id="b-3" class="move div-size"></div>
-					</td>
-				</tr>
-				<tr>
-					<td class="td-table-three">
-						<div id="c-1" class="move div-size"></div>
-					</td>
-					<td class="td-table-three">
-						<div id="c-2" class="move div-size"></div>
-					</td>
-					<td>
-						<div id="c-3" class="move div-size"></div>
-					</td>
-				</tr>
+	<div id="initial" align="center" class="cover">
+		<div class="start-screen">
+			<table class="table-width">
+				<thead>
+					<tr>
+						JOGO DA VELHA
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="td-align">
+							<img src="images/player-one.png">
+							<br>
+							<input id="player-one" type="text" maxlength="10" placeholder="Digite o apelido do jogador 1">
+						</td>
+						<td class="td-align">
+							<img id="btn-start" src="images/start.png">
+						</td>
+						<td class="td-align">
+							<img src="images/player-two.png">
+							<br>
+							<input id="player-two" type="text" maxlength="10" placeholder="Digite o apelido do jogador 2">
+						</td>
+					</tr>
+				</tbody>
 			</table>
 		</div>
+	</div>
 
-		<div class="display">
-			<img src="images/player-two.png">
-			<br>
-			<span id="player-two-name"></span>
+	<div id="game" align="center" class="cover">
+		<div class="div-game">
+			<div class="display">
+				<img src="images/player-one.png">
+				<br>
+				<span id="player-one-name"></span>
+			</div>
+
+			<div class="display">
+				<table>
+					<tr>
+						<td class="td-table-one">
+							<div id="a-1" class="move div-size"></div>
+						</td>
+						<td class="td-table-one">
+							<div id="a-2" class="move div-size"></div>
+						</td>
+						<td class="td-table-two">
+							<div id="a-3" class="move div-size"></div>
+						</td>
+					</tr>
+					<tr>
+						<td class="td-table-one">
+							<div id="b-1" class="move div-size"></div>
+						</td>
+						<td class="td-table-one">
+							<div id="b-2" class="move div-size"></div>
+						</td>
+						<td class="td-table-two">
+							<div id="b-3" class="move div-size"></div>
+						</td>
+					</tr>
+					<tr>
+						<td class="td-table-three">
+							<div id="c-1" class="move div-size"></div>
+						</td>
+						<td class="td-table-three">
+							<div id="c-2" class="move div-size"></div>
+						</td>
+						<td>
+							<div id="c-3" class="move div-size"></div>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="display">
+				<img src="images/player-two.png">
+				<br>
+				<span id="player-two-name"></span>
+			</div>
 		</div>
 	</div>
 

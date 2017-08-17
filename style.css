@@ -6,9 +6,15 @@
 
 /* ===================== Layout ===================== */
 
+html, body, .cover {
+    height: 100%;
+}
+
 body {
     background: url('images/ruido.png'),
                 linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-weight: bold;
 }
 
 /* -- Barra de navegação -- */
@@ -48,16 +54,19 @@ nav.navbar-transparent {
 
 /* -- Imagem de capa -- */
 
-/* ===================== Tipografia ===================== */
-
-.table-down {
-    margin-top: 250px;
+.cover {
+    display: table;
+    width: 100%;
 }
 
-.table-width {
-    width: 600px;
-    /* margin-top: 200px; */
-    margin-bottom: 215px;
+.start-screen {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.div-game {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .td-header {
@@ -68,31 +77,26 @@ nav.navbar-transparent {
     text-align: center;
 }
 
-.div-game {
-    margin-top: 150px;
-    margin-bottom: 195px;
-    text-align: center;
-    display: none;
-}
-
 .display {
     display: inline-block;
 }
 
 .td-table-one {
-    border-bottom: solid 1px red;
-    border-right: solid 1px red;
+    border-bottom: solid 3px white;
+    border-right: solid 3px white;
 }
 
 .td-table-two {
-    border-bottom: solid 1px red;
+    border-bottom: solid 3px white;
 }
 
 .td-table-three {
-    border-right: solid 1px red;
+    border-right: solid 3px white;
 }
 
 .div-size {
     width:100px;
     height:100px;
 }
+
+/* ===================== Tipografia ===================== */

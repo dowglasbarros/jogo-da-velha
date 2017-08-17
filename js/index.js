@@ -1,3 +1,7 @@
+jQuery(function($) {
+	$('#game').hide();
+});
+
 var round = 1;
 var matrix = Array(3);
 

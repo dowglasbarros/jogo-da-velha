@@ -1,9 +1,14 @@
-# Jogo da Velha
-Um jogo da velha utilizando HTML, CSS e JQuery.
+# Projeto do curso de Desenvolvimento Web do site Udemy
+O projeto foi desenvolvido durante a aula de JQuery. Após o término das aulas adicionei o Bootstrap e fiz alguns ajustes no projeto. Abaixo seguem algumas imagens do projeto final do curso antes dos ajustes, depois dos ajustes e um link para testar o game.
 
-## Regras do jogo:
-O jogo é composto por uma matriz de três linhas por três colunas e tem dois jogadores, o primeiro jogador usa um xis (X) como marcação e o segundo jogador usa um círculo (O). As jogadas são alternadas, uma marcação por vez, em um espaço que esteja vazio.
+### [Para acessar a demonstração do jogo clique aqui!](https://dowglasbarros.github.io/jogo-da-velha/)
 
-O objetivo é conseguir três xis ou três círculos em linha, que pode ser horizontal, vertical ou diagonal, e ao mesmo tempo tentar impedir o adversário de ganhar na próxima rodada.
+Figura 1 - Projeto sem edição  |  Figura 2 - Projeto sem edição
+:-----------------------------:|:-----------------------------:
+![Figura 1 - Projeto sem edição](https://user-images.githubusercontent.com/25267785/29454171-8d1c8e8c-83e2-11e7-9aba-5f74ee0ed8b8.png)  |  ![Figura 2 - Projeto sem edição](https://user-images.githubusercontent.com/25267785/29454174-8e9da214-83e2-11e7-904a-7d08d7a82cc1.png)
 
-### [Para acessar a demonstração do jogo clique aqui!](https://dowglasbarros.github.io/jogo-da-velha/) :smiling_imp: :x: :o: :innocent:
+Figura 3 - Projeto editado  |  Figura 4 - Projeto editado
+:--------------------------:|:----------------------:
+![Figura 3 - Projeto com edição](https://user-images.githubusercontent.com/25267785/29454175-8f9387c4-83e2-11e7-9c90-aa1bdbd0b817.png)  |  ![Figura 4 - Projeto com edição](https://user-images.githubusercontent.com/25267785/29454176-912f453c-83e2-11e7-8baa-67c2ce03bf26.png)
+
+

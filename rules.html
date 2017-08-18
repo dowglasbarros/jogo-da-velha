@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Jogo da velha</title>
+
+	<!-- Bootstrap -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/index.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+	<nav class="navbar navbar-fixed-top navbar-inverse navbar-transparent">
+		<div class="container">
+
+			<!-- Header -->
+			<div class="navbar-header">
+
+				<!-- botao toggle -->
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation-bar">
+					  <span class="sr-only">Alternar navegação</span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+
+				<a href="index.html" class="navbar-brand">
+					  <span class="img-logo">Jogo da Velha</span>
+					</a>
+
+			</div>
+
+			<!-- navbar -->
+			<div class="collapse navbar-collapse" id="navigation-bar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Comece a jogar!</a></li>
+					<li class="divisor" role="separator"></li>
+					<li><a href="">Entrar</a></li>
+				</ul>
+			</div>
+
+		</div>
+		<!-- /container -->
+	</nav>
+	<!-- /nav -->
+
+	<div id="initial" align="center" class="cover">
+		<div class="start-screen">
+
+			<table>
+				<thead>
+					<tr>
+						<h1 class="white-color">Regras do Jogo</h1><br>
+					</tr>
+				</thead>
+				<tbody class="white-color">
+					<tr>
+						<td class="td-align">
+							<img src="images/player-one.png">
+						</td>
+						<td class="td-align">
+							<div class="rules">
+								<p>O jogo é composto por uma matriz de três linhas por três colunas e tem dois jogadores, o primeiro jogador usa um
+									xis (X) como marcação e o segundo jogador usa um círculo (O). As jogadas são alternadas, uma marcação por vez, em
+									um espaço que esteja vazio.</p><br>
+								<p>O objetivo é conseguir três xis ou três círculos em linha, que pode ser horizontal, vertical ou diagonal, e ao mesmo
+									tempo tentar impedir o adversário de ganhar na próxima rodada.</p>
+							</div>
+						</td>
+						<td class="td-align">
+							<img src="images/player-two.png">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+		</div>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

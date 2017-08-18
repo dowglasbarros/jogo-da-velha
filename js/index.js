@@ -1,7 +1,3 @@
-jQuery(function($) {
-	$('#game').hide();
-});
-
 var round = 1;
 var matrix = Array(3);
 
@@ -41,7 +37,7 @@ $(document).ready(function(){
 
         // Controla a visualização das divs
         $('#initial').hide();
-        $('#game').show();
+        $("#game").css('display','table');
     });
 
     $('.move').click(function(){

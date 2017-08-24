@@ -44,11 +44,12 @@ nav.navbar-transparent {
     margin: 16px 10px;
 }
 
-.navbar-inverse .navbar-nav>li>a, .white-color {
+.navbar-inverse .navbar-nav>li>a, .white-color, #rodape .nav a {
     color: #FFFFFF;
+    background: none;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav>li>a:hover, #rodape .nav a:hover {
     color: #9bf0e1;
 }
 
@@ -109,19 +110,33 @@ nav.navbar-transparent {
     width: 400px;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+/* -- Rodapé -- */
+
+footer {
+    background: #000;
+    padding: 30px 0 10px 0;
+    position: relative;
+}
+
+.item-rede-social {
+    float: right;
+}
+
+iframe {
+    margin-top: 15px;
+}
+
+/* ===================== Tipografia ===================== */
+#rodape h4 {
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 /* Media queries */
 /* xs < 600 */
 @media screen and (max-width: 400px) {
-    iframe {
-        width: 30rem;
-    }
-    
     input {
         width: 14rem;
         font-size: 10px;
@@ -142,32 +157,23 @@ nav.navbar-transparent {
 }
 
 /* sm */
-@media screen and (min-width: 410px) {
-iframe {
-    width: 30rem;
-}
+@media screen and (min-width: 410px) and (max-width: 765px) {
+    input {
+        width: 14rem;
+        font-size: 10px;
+    }
 
-input {
-    width: 14rem;
-    font-size: 10px;
-}
+    div.display:first-child {
+        margin-top: 85px;
+    }
 
-div.display:first-child {
-    margin-top: 85px;
-}
+    #initial img {
+        width: 10rem;
+        display: inline-block;
+    }
 
-#initial img {
-    width: 10rem;
-    display: inline-block;
-}
-
-#game img {
-    width: 13rem;
-}
-}
-
-/* lg */
-@media screen and (min-width: 1200px) {
-
+    #game img {
+        width: 13rem;
+    }
 }
 /* Fim Media queries */

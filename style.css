@@ -1,7 +1,7 @@
 /*
 *
 * @author Dowglas Barros
-* @version 0.1
+* @version 0.2
 */
 
 /* ===================== Layout ===================== */
@@ -52,7 +52,7 @@ nav.navbar-transparent {
     color: #9bf0e1;
 }
 
-/* -- Imagem de capa -- */
+/* -- Conteúdo da Página -- */
 
 .cover {
     display: table;
@@ -115,4 +115,23 @@ nav.navbar-transparent {
     width: 100%;
 }
 
-/* ===================== Tipografia ===================== */
+/* Media queries */
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    iframe {
+        width: 30rem;
+    }
+    
+    input {
+        width: 14rem;
+        font-size: 10px;
+    }
+
+    div.display:first-child {
+        margin-top: 85px;
+    }
+
+    #game img {
+        width: 12rem;
+    }
+/* Fim Media queries */

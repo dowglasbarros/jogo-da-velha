@@ -116,8 +116,8 @@ nav.navbar-transparent {
 }
 
 /* Media queries */
-/* xs < 768 */
-@media screen and (max-width: 767px) {
+/* xs < 600 */
+@media screen and (max-width: 400px) {
     iframe {
         width: 30rem;
     }
@@ -131,7 +131,43 @@ nav.navbar-transparent {
         margin-top: 85px;
     }
 
-    #game img {
-        width: 12rem;
+    #initial img {
+        width: 8rem;
+        display: inline-block;
     }
+
+    #game img {
+        width: 8rem;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 410px) {
+iframe {
+    width: 30rem;
+}
+
+input {
+    width: 14rem;
+    font-size: 10px;
+}
+
+div.display:first-child {
+    margin-top: 85px;
+}
+
+#initial img {
+    width: 10rem;
+    display: inline-block;
+}
+
+#game img {
+    width: 13rem;
+}
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+
+}
 /* Fim Media queries */
